@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Satisfy&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+
+.container-1{
+    background-image: url(img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Pompiere', cursive;
+    box-shadow: 0px 6px 30px 6px rgba(0, 0, 0, 0.25);
+}
+
+.container-1 .item-1{
+padding-top: 120px;
+animation: judul 4s ease-in infinite alternate;
+}
+
+@keyframes judul {
+    0%{
+        transform: rotate(-35deg);
+    }
+    100%{
+        transform: rotate(35deg);
+    }
+}
+.container-1 .item-1 img{
+    width: 420px;
+    height: 100px;
+  
+   
+}
+
+.container-1 .item-1 h1{
+    font-family: 'Norican', cursive;
+    font-size: 49px;
+    color: rgb(238,238,238);
+    color: #fcb900;
+}
+
+.container-1 .item-2{
+   margin-top: 120px;
+   line-height: 30px;
+}
+.container-1 .item-2 h2{
+    font-size: 30px;
+    margin-top: 120px;
+    color: white;
+    
+}
+
+.container-1 .item-2 h4{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+.container-1 .item-2 a{
+   border: 5px solid #fcb900;
+
+    padding: 12px 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container-2{
+    width: 100vw;
+    height: 1500px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container-2 p{
+    font-family: 'Pompiere', cursive;
+    padding-top: 50px;
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+}
+
+.container-2 .mawar{
+    width: 380px;
+    height: 200px;
+    padding: 40px 0px;
+}
+
+.container-2 h1{
+    font-family: 'Norican', cursive;
+    padding-bottom: 50px;
+    color: #fcb900;
+    font-size: 49px;
+}
+
+.container-2 .item-1{
+    width: 90%;
+    height: 900px;
+    background-color: rgba(252, 185, 0,.1);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.container-2 .item-1 aside{
+    width: 50%;
+}
+
+.container-2 .item-1 .img{
+    overflow: hidden;
+}
+
+.container-2 .item-1:hover .img{
+    animation: foto 2s;
+}
+.container-2 .item-1:hover .text-1{
+    animation: text1 1s;
+}
+
+.container-2 .item-1:hover .text-2{
+    animation: text2 1s;
+}
+
+@keyframes foto {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@keyframes text1 {
+    0%{
+        transform: translate(300px,200px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+@keyframes text2 {
+    0%{
+        transform: translate(-300px,200px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+.container-2 .item-1 .img img{
+ width: 400px;
+ height: 400px;
+ border-radius: 50%;
+ box-shadow: 10px 5px 15px rgb(63, 62, 62);
+}
+
+.container-2 .item-1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.container-2 .item-1 .text h2{
+    font-family: 'Norican', cursive;
+    font-size: 35px;
+    color: #fcb900;
+}
+
+.container-2 .item-1 .text p{
+    font-family: 'Pompiere', cursive;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.container-2 .item-1 .text .medsos{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    letter-spacing: 40px;
+    padding-bottom: 100px;
+  
+}
+.container-2 .item-1 .text .medsos .fa-brands{
+color: #fcb900;
+font-size: 30px;
+}
+
+.container-2 .item-1 .text .medsos .fa-brands:hover{
+    color: #0577ac;
+}
+
+.container-3{
+    width: 100vw;
+    height: 750px;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-3 h1{
+    font-family: 'Norican', cursive;
+    color: rgb(68, 63, 63);
+    font-size: 40px;
+    font-style: italic;
+}
+
+.container-3 h2{
+    font-size: 40px;
+    color: #f8b90b;
+}
+
+.container-4{
+    width: 100vw;
+    height: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgba(252, 185, 0,.1);
+    margin-top: -100px;
+}
+
+.container-4 img{
+    width: 380px;
+    height: 200px;
+    padding: 40px 0px;
+}
+
+.container-4 h1{
+    font-family: 'Norican', cursive;
+    font-size: 49px;
+    color: #fcb900;
+}
+
+.container-4 iframe{
+    width: 70%;
+    height: 90vh;
+    margin: 10px auto;
+}
+
+.container-4 article{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.container-4 article aside{
+    width: 30%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container-4 article:hover .time-1{
+    animation: time1 1s;
+}
+
+.container-4 article:hover .time-2{
+    animation: time2 1s;
+}
+
+
+@keyframes time1 {
+    0%{
+        transform: translate(-600px,0px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+@keyframes time2 {
+    0%{
+        transform: translate(-1000px,0px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+.container-4 article aside h2{
+    font-family: 'Norican', cursive;
+    font-size: 35px;
+    color: #fcb900;
+    margin-top: 10px;
+}
+
+.container-4 article aside p{
+    line-height: 40px;
+    margin: 30px 0px;
+    font-family: 'Pompiere', cursive;
+    font-size: 16px;
+}
+
+.container-4 article aside a{
+    width: 250px;
+    height: 42px;
+    line-height: 42px;
+    text-decoration: none;
+    background-color: #fcc838;
+    color: rgb(238,238,238);
+    margin: 5px 0px;
+    border-radius: 10px;
+  font-size: 16px;
+    font-family: 'Pompiere', cursive;
+}
+
+.container-5{
+    width: 100vw;
+    height: 1200px;
+    background-image: url(https://winvitation.id/wv_storage/2021/08/prem-2-orange-cover-fullhd3.jpg
+    );
+    background-size: cover;
+    text-align: center;
+}
+
+.container-5 .mawar{
+    width: 380px;
+    height: 200px;
+    margin-top: -30px;
+    padding: 20px 0px;
+}
+.container-5 h1{
+    font-family: 'Norican', cursive;
+    font-size: 49px;
+    color: #fcb900;
+    padding: 20px 0px;
+    margin-top: -40px;
+}
+
+.container-5 article{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.container-5 article aside{
+    width: 23%;
+    height: 280px;
+    margin-bottom: 25px;
+    overflow: hidden;
+   border-radius: 8px;
+    background-color: rgb(238,238,238);
+}
+
+.container-5 article aside a img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-5 article aside a span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 9999;
+    margin-top: -284px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    opacity: 0;
+    transition: 1.2s;
+}
+
+
+.container-5 article aside a span:hover{
+    opacity: .5;
+}
+
+.container-5 article aside .ful{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0,.7);
+    display: none;
+    z-index: 9999;
+}
+
+.container-5 article aside .ful:target{
+    display: block;
+}
+
+.container-5 article aside .ful img{
+    width: 50%;
+    height: 500px;
+    line-height: 500px;
+    margin: 80px auto;
+    animation: animasi1 1s;
+}
+
+.container-5 article aside .ful:target img{
+    animation: animasi1 1s;
+}
+
+@keyframes animasi1 {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.container-5 article aside .ful a{
+    position: absolute;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 300px;
+    margin-top: 10px;  
+}
+
+.container-5 article aside .ful .fa-x{
+    color: rgb(173, 173, 173);
+    height: 5px;
+    margin-left: -50px;
+    font-size: 35px;
+}
+
+.container-5 article aside .ful .fa-angles-left{
+    color: rgb(173, 173, 173);
+    line-height: 650px;
+    margin-left: -900px;
+    font-size: 70px;
+}
+
+.container-5 article aside .ful .fa-angles-right{
+    color: rgb(173, 173, 173);
+    line-height: 650px;
+    margin-left: -400px;
+    font-size: 70px;
+}
+
+.container-5 .bawah{
+    width: 100vw;
+    margin-top: 40px;
+}
+
+.container-6{
+    width: 100vw;
+    height: 900px;
+    text-align: center;
+    background-color: rgba(252, 185, 0,.1);
+}
+
+
+.container-6 img{
+    width: 380px;
+    height: 200px;
+    padding: 20px 0px;
+}
+
+.container-6 h1{
+    font-family: 'Norican', cursive;
+    font-size: 49px;
+    color: #fcb900;
+}
+
+.container-6 article{
+    width: 80%;
+    height: auto;
+    margin: 40px auto;
+    text-align: start;
+    background-color: rgba(252, 185, 0,.3);
+    padding: 50px 30px;
+   letter-spacing: -2px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 0px 60px 0px 60px;
+}
+.container-6 article .input{
+    width: 1000px;
+    height: 35px;
+    padding-left: 12px;
+    outline: none;
+}
+
+.container-6 article #hadir,
+.container-6 article #tidak{
+    width: 20px;
+    height: 20px; 
+}
+
+.container-6 article label{
+    margin-bottom: 50px;
+}
+
+.container-6 article button{
+    background-color: #fcc838;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid wheat;
+}
+
+/* =======AWAL FOOTER====== */
+footer{
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer .item-1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+footer .item-1 i{
+   font-size: 25px;
+   color: rgba(0, 0, 0,.7);
+   margin-left: 15px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+  
+
+}
+
+footer .item-1 .fa-tiktok:hover{
+    color: #c04b4b;
+}
+
+footer .item-1 .fa-facebook-f:hover{
+    color: #003cff;
+}
+
+footer .item-1 .fa-instagram:hover{
+    color: #0577ac;
+}
+
+footer .item-2{
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+
+footer .item-2 a{
+    color: #f8b90b;
+    font-weight: none;
+}
+
+footer img{
+    width: 500px;
+    margin-top: 25px;
+}
+
+.fixed{
+    width: 15%;
+    height: 80px;
+    left: 20px;
+    bottom: 0px;
+    margin-bottom: 10px;
+    z-index: 9999;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed i{
+    color: #68e757;
+    font-size: 40px;
+    border-radius: 50%;
+    transition: 2s;
+    animation: wa 3s infinite;
+}
+
+
+@keyframes wa {
+    0%{
+        transform: scale(0.3);
+
+    }
+
+    100%{
+       transform: scale(1) rotate(360deg);
+    }
+}
+
+
+
+
+/* =======AKHIR FOOTER===== */
+
+
+/* AWAL RESPONSIVE TABLET */
+@media screen and (max-width: 867px){
+
+}
+/* AKHIR RESPONSIVE TABLET */
+
+/* AWAL RESPONSIVE MOBILE */
+@media screen and (max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+.container-1{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-1 .item-1 img{
+    width: 350px;
+    height: 80px;
+}
+
+.container-1 .item-2{
+    margin-top: 0px;
+}
+
+.container-1 .item-1 h1{
+    font-size: 46px;
+}
+
+.container-1 .item-2 h2{
+color: white;
+font-size: 25px;
+}
+
+.container-1 .item-2 h4{
+    font-size: 15px;
+    color: white;
+}
+
+.container-1 .item-2 a{
+    padding: 15px 30px;
+    font-size: 12px;
+    margin-bottom: -50px;
+}
+
+
+
+.container-2 .item-1{
+    height: auto;
+    padding: 30px 0px;
+}
+
+.container-2 h1{
+    font-size: 46px;
+}
+
+.container-2 .item-1 .img img{
+    width: 50%;
+}
+
+.container-2 .item-1 .text h2{
+    font-size: 35px;
+}
+
+.container-2 .item-1 .text p{
+    font-size: 12px;
+}
+
+.container-2 p{
+    font-size: 12px;
+    width: 95%;
+    margin: auto;
+}
+
+.container-2 .item-1 .img,
+.container-2 .item-1 .text{
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.container-2 .item-1 .text .medsos{
+    padding-top: 30px;
+}
+
+.container-2 .item-1 .img-1{
+    order: 1;
+}
+
+.container-2 .item-1 .text-1{
+    order: 2;
+    
+}
+
+.container-2 .item-1 .text-2{
+    order: 4;
+}
+
+
+.container-2 .item-1 .img-2{
+    order: 3;
+}
+
+
+.container-2 .item-1 .img img{
+    width: 90%;
+    height: 300px;
+}
+
+.container-3{
+    margin-top: 500px;
+    background-image: url(img/bg3.jpg);
+}
+
+.container-3 h1{
+    font-size: 25px;
+}
+
+.container-4 h1{
+font-size: 46px;
+}
+
+.container-4 article aside h2{
+    font-size: 35px;
+}
+
+.container-4 article aside p{
+    font-size: 12px;
+}
+
+.container-4 article aside a{
+    font-size: 12px;
+}
+
+.container-4 iframe{
+    width: 80%;
+    height: 300px;
+}
+
+.container-4 article{
+    flex-wrap: wrap;
+}
+.container-4 article aside {
+    width: 100%;
+}
+
+.container-4 article .time-1{
+    margin-bottom: 90px;
+}
+
+.container-5 h1{
+    font-size: 46px;
+}
+.container-5 .atas{
+    width: 100vw;
+}
+
+.container-5 .mawar{
+    width: 380px;
+    height: 200px;
+    padding: 40px 0px;
+}
+
+.container-5 article aside{
+    width: 45%;
+    height: 170px;
+}
+
+.container-5 article aside .ful{
+    width: 100vw;
+    height: 100vh;
+}
+.container-5 article aside .ful .fa-x{
+    color: rgb(173, 173, 173);
+    height: 5px;
+    top: 0px;
+    margin-left: -350px;
+    font-size: 30px;
+    position: absolute;
+}
+
+.container-5 article aside .ful img{
+    width: 360px;
+    height: 360px;
+    margin-bottom: -500px;
+  
+}
+
+
+.container-6{
+    margin-top: 50px;
+}
+
+.container-6 h1{
+    font-size: 46px;
+}
+
+.container-6 img{
+    width: 350px;
+    height: 180px;
+    padding: 40px 0px;
+}
+.container-6 article{
+    width: 95%;
+}
+.container-6 article .input{
+    width: 95%;
+    height: 35px;
+    padding-left: 15px;
+    
+}
+
+.container-6 article imput{
+    font-size: 12px;
+}
+
+.container-6 article button{
+    font-size: 12px;
+}
+
+
+footer{
+   margin-top: 100px; 
+}
+
+footer img{
+    width: 350px;
+    height: 180px;
+    padding: 40px 0px;
+    margin-bottom: -50px;
+}
+
+
+}
+/* AKHIR RESPONSIVE MOBILE */
+
+
+
